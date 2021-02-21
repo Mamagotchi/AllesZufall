@@ -39,13 +39,11 @@ function create_chart(data_get:number[], ani_num:number){
         scales: {
           xAxes: [{
             gridLines: {
-                // display:false,
                 drawOnChartArea: false
               }
             }],
             yAxes: [{
               gridLines: {
-                // display:false,
                 drawOnChartArea: false
               },
                 ticks: {
