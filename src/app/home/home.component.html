@@ -1,0 +1,18 @@
+<div class="home-box">
+    <div class="home-neu">
+        <button  (click)="Create_random_numbers()">Neu</button>
+    </div>
+    
+    <div id="home-chart">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <div class="home-slider">
+        <div class="home-slider-sub">
+            <label id="numTries">Anzahl der Würfe: {{num_try}}</label>
+            <button (click)="valueChange(-1)">-1</button>
+            <button (click)="valueChange(1)">+1</button>
+        </div>   
+        <input type="range" min="1" max="500" value="250" class="slider" id="myRange" (input)="getSliderValue($event,0,true)">
+    </div>
+</div>

@@ -1,0 +1,45 @@
+.home-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.home-neu{
+    height: auto;
+    width: 100%;
+}
+
+.home-chart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home-slider{
+    height: auto;
+    width: 100%;
+}
+
+.home-slider-sub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-left: 20px;
+    width:80px;
+}
+
+#myChart{
+    height: fit-content;
+    width: 80%;
+}
+#numTries{
+    width:100%;
+}
+
+#myRange{
+    width: 100%;
+}
