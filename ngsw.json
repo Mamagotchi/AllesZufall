@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1614026557425,
+  "timestamp": 1614027115649,
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.c15e887dae005b8d0a75.js",
+        "https://mamagotchi.github.io/alleszufall/main.8818dfc126bbde09b961.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js",
         "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js",
@@ -29,6 +29,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://mamagotchi.github.io/alleszufall/assets/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@1x.png",
         "https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x.png",
         "https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x1.png",
@@ -72,6 +73,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://mamagotchi.github.io/alleszufall/assets/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@1x.png": "89ccd100d0f989a5e44f8d79c2a6f434050020d2",
     "https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x.png": "e21868dea76e0c1318b8d0d89d29cd2f7fec3248",
     "https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x1.png": "e21868dea76e0c1318b8d0d89d29cd2f7fec3248",
@@ -109,9 +111,9 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_512x512.png": "2b93f9969e92fe3ffabbc73a2b57fa6d1412d226",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
-    "https://mamagotchi.github.io/alleszufall/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://mamagotchi.github.io/alleszufall/index.html": "ed39d8d50c8f485060df73b72c807d5c104268c0",
-    "https://mamagotchi.github.io/alleszufall/main.c15e887dae005b8d0a75.js": "a07c81cec03ab9e8a88b787c7af3ac15a292e681",
+    "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
+    "https://mamagotchi.github.io/alleszufall/index.html": "e8e87a0ef9bc4bf1c3594be08b0a51c7776a26e4",
+    "https://mamagotchi.github.io/alleszufall/main.8818dfc126bbde09b961.js": "61e14090be03205585960ce84da6448a7b235497",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "118d439a50c01c7bc6a325738f94561168f5a2a1",
     "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
