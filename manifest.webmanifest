@@ -1,9 +1,9 @@
 {
   "name": "alleszufall",
-  "short_name": "alleszufall",
+  "short_name": "Alles Zufall",
   "theme_color": "#1976d2",
   "background_color": "#ffffff",
-  "display": "fullscreen",
+  "display": "standalon",
   "scope": "./",
   "start_url": "./",
   "orientation": "portrait",
