@@ -3,11 +3,48 @@
 <head>
   <meta charset="utf-8">
   <title>Alleszufall</title>
-  <base href="https://Mamagotchi.github.io/alleszufall/">
+  <base href="https://https://mamagotchi.github.io/alleszufall/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/Icon-App-76x76@2x.png">
+  <link rel="apple-touch-icon" href="assets/icons/Icon-App-60x60@3x.png">
+
+  <!-- iPhone X (1125px x 2436px) -->
+  <link rel="apple-touch-startup-image" href="assets/splashscreen/Launch_1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+
+  <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+  <link rel="apple-touch-startup-image" href="assets/splashscreen/Launch_750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+
+  <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+  <link rel="apple-touch-startup-image" href="assets/splashscreen/Launch_1242x2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+
+    <!-- iPhone SE (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" href="assets/splashscreen/Launch_640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <meta name="theme-color" content="#1976d2">
 <link rel="stylesheet" href="styles.cf0d97966da12cf33e6c.css"></head>
 <body>
   <app-root></app-root>
-<script src="runtime.0e49e2b53282f40c8925.js" defer></script><script src="polyfills.2e89f9530eab053a7df4.js" defer></script><script src="main.af6f757356656dc6cf5a.js" defer></script></body>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+
+  <button id="install" stylep="display: none;">Installieren</button>
+  <script>
+    const installButton = document.getElementById('install');
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', evt => {
+      event.preventDefault();
+      deferredPrompt = evt;
+      installButton.style.display ='block';
+    });
+
+    installButton.addEventListener('click', async()=> {
+      await deferredPrompt.prompt();
+      const choiceResult = await deferredPrompt.userChoice;
+      console.log(choiceResult.outcome);
+    });
+  </script>
+
+<script src="runtime.0e49e2b53282f40c8925.js" defer></script><script src="polyfills.2e89f9530eab053a7df4.js" defer></script><script src="main.217a6be6f8cc8f9e33f8.js" defer></script></body>
 </html>

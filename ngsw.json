@@ -1,0 +1,139 @@
+{
+  "configVersion": 1,
+  "timestamp": 1614024131828,
+  "index": "https://https://mamagotchi.github.io/alleszufall/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://https://mamagotchi.github.io/alleszufall/favicon.ico",
+        "https://https://mamagotchi.github.io/alleszufall/index.html",
+        "https://https://mamagotchi.github.io/alleszufall/main.217a6be6f8cc8f9e33f8.js",
+        "https://https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
+        "https://https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js",
+        "https://https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js",
+        "https://https://mamagotchi.github.io/alleszufall/styles.cf0d97966da12cf33e6c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@1x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x1.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@3x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@1x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@2x1.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@3x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@1x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@2x1.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@3x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-60x60@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-60x60@3x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-76x76@1x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-76x76@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-83.5x83.5@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/ItunesArtwork@2x.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-128x128.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-144x144.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-152x152.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-192x192.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-384x384.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-512x512.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-72x72.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-96x96.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1136.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1536.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_768.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_960.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_Quer_1536.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_Quer_768.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_1125x2436.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_1242x2208.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_512x512.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png",
+        "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@1x.png": "89ccd100d0f989a5e44f8d79c2a6f434050020d2",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x.png": "e21868dea76e0c1318b8d0d89d29cd2f7fec3248",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@2x1.png": "e21868dea76e0c1318b8d0d89d29cd2f7fec3248",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-20x20@3x.png": "e81cee5ee3fae6dd95f961e94ce9c3de2fb9e371",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@1x.png": "9fa3f05e028e8dbd15fdf92927eb2689ca814eb8",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@2x.png": "eafec0ac0d51cfac0c31452dd78a24d0012d5f40",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@2x1.png": "eafec0ac0d51cfac0c31452dd78a24d0012d5f40",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-29x29@3x.png": "ec13d3a49a1993aee4c72ac37d1ad73624bbb9c0",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@1x.png": "e21868dea76e0c1318b8d0d89d29cd2f7fec3248",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@2x.png": "08523fbc12c9cca51ca15970d5e0d576114e0315",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@2x1.png": "08523fbc12c9cca51ca15970d5e0d576114e0315",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-40x40@3x.png": "1b952eae519772089a470637153f0d4597fe2ba6",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-60x60@2x.png": "1b952eae519772089a470637153f0d4597fe2ba6",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-60x60@3x.png": "0e40b2f94a11e3cd8f23832557ba55c6a1decb26",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-76x76@1x.png": "cd5a26998c3fb9a6ec9f2f727ee91e6507b00ac1",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-76x76@2x.png": "ec6e8b86f1f0d0adb82fe837fcefc372638003f9",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/Icon-App-83.5x83.5@2x.png": "18ed4485079a3ae8bbb08a07dfbe1877b095de09",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/ItunesArtwork@2x.png": "f8e549a44f31db5e79209943e72c7d08c484f445",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://https://mamagotchi.github.io/alleszufall/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1136.png": "37173588535a9348145f7b017ae0168808bbafad",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1536.png": "d1e6757e551c409a88bd03397c5a722de8d2777e",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_768.png": "cea3e0d0367c3376db5ac9a36d74d8e646f11df9",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_960.png": "5b43d6ac83b447c141cffef5e7397748a44110d0",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_Quer_1536.png": "0aaf1cdc90419644042ce979b6a67f7deb4f9513",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_Quer_768.png": "7b47b0035a072503497a25a440ff76877f1979c1",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_1125x2436.png": "380b4f2957f62269725fbbca4a2e129d1b041dd3",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_1242x2208.png": "1a1cf4d6288021420f22ddb839c3c6c54821a576",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_512x512.png": "2b93f9969e92fe3ffabbc73a2b57fa6d1412d226",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
+    "https://https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
+    "https://https://mamagotchi.github.io/alleszufall/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://https://mamagotchi.github.io/alleszufall/index.html": "a269628b65d7cc533128c0e83b4d45d5d32df8e9",
+    "https://https://mamagotchi.github.io/alleszufall/main.217a6be6f8cc8f9e33f8.js": "1938567185b1559179fc9bb55016d428f4dfa775",
+    "https://https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "118d439a50c01c7bc6a325738f94561168f5a2a1",
+    "https://https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://https://mamagotchi.github.io/alleszufall/styles.cf0d97966da12cf33e6c.css": "af6d222aa8f58ec1a4122ced43da604aa4f38155"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
