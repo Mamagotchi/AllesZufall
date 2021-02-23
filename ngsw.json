@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614117114266,
+  "timestamp": 1614117420816,
   "appData": {
-    "version": "1.1.2",
-    "changelog": "TEST2: Grundlagen für einheitliches Design wurde erstellt."
+    "version": "0.0.2",
+    "changelog": "Grundlagen für einheitliches Design und für die Update-Routine wurden erstellt."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.48922b5cf360346600c0.js",
+        "https://mamagotchi.github.io/alleszufall/main.9305a1e9c6fc1b0ff347.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js",
         "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js",
@@ -116,8 +116,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "fea7da508feeb7c058dfed71c7c6c1aed65623af",
-    "https://mamagotchi.github.io/alleszufall/main.48922b5cf360346600c0.js": "9d71880c2decb55262c71e5a165e9b11bc3f061a",
+    "https://mamagotchi.github.io/alleszufall/index.html": "706d80bead6d0995639dbcc9777200d0267a203a",
+    "https://mamagotchi.github.io/alleszufall/main.9305a1e9c6fc1b0ff347.js": "21c707368a6cb61666af6780122682e904faded5",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
     "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
