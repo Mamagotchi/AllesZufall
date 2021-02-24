@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614201614772,
+  "timestamp": 1614201805261,
   "appData": {
-    "version": "0.0.3a",
-    "changelog": "Die Datenreihe wird in der App gespeichert. Jetzt kannst du auch über mehrere Tage versetzt an einem Datensatz arbeiten. Außerdem wird jetzt der richtige Changelog angezeigt."
+    "version": "0.0.3",
+    "changelog": "Die Datenreihe wird in der App gespeichert. Jetzt kannst du auch über mehrere Tage versetzt an einem Datensatz arbeiten."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
