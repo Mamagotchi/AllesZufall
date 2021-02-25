@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614288364251,
+  "timestamp": 1614288812447,
   "appData": {
-    "version": "0.0.4",
+    "version": "0.0.4a",
     "changelog": "Deine Datenreihe kann jetzt als QR-Code geteilt werden."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.e7a413dc83fd2e1020ef.js",
+        "https://mamagotchi.github.io/alleszufall/main.86ef4c90a4532acd375b.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js",
         "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js",
@@ -116,8 +116,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "947daedddce5c6f177c640fb56b97f894f4769a5",
-    "https://mamagotchi.github.io/alleszufall/main.e7a413dc83fd2e1020ef.js": "aa3b2e49566ad120bd26c6e58a6f334b77d19ff6",
+    "https://mamagotchi.github.io/alleszufall/index.html": "0f5954e3dc931aaff6b9991fe2da33126bac0979",
+    "https://mamagotchi.github.io/alleszufall/main.86ef4c90a4532acd375b.js": "0f52aac4aa47ac4c335c8e193758b073e35111e4",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
     "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
