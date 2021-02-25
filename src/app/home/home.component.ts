@@ -251,7 +251,7 @@ export class HomeComponent implements OnInit {
     }
 
 
-    if (localStorage.getItem("random500") === null) {
+    if (localStorage.getItem("random500") === null || localStorage.getItem("wuerfe500") ===null) {
       // console.log("Neu");
       this.Create_random_numbers(false);
     }

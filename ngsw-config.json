@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
   "index": "/index.html",
   "appData": {
-    "version": "0.0.4",
+    "version": "0.0.4a",
     "changelog": "Deine Datenreihe kann jetzt als QR-Code geteilt werden."
   },
   "assetGroups": [
