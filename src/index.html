@@ -2,10 +2,11 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <title>Alleszufall</title>
+  <title>Alles Zufall</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/Icon-App-76x76@2x.png">
@@ -23,28 +24,12 @@
     <!-- iPhone SE (1242px x 2208px) -->
     <link rel="apple-touch-startup-image" href="assets/splashscreen/Launch_640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
   <meta name="theme-color" content="#1976d2">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body class="mat-typography">
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-
-  <button id="install" stylep="display: none;">Installieren</button>
-  <script>
-    const installButton = document.getElementById('install');
-    let deferredPrompt;
-
-    window.addEventListener('beforeinstallprompt', evt => {
-      event.preventDefault();
-      deferredPrompt = evt;
-      installButton.style.display ='block';
-    });
-
-    installButton.addEventListener('click', async()=> {
-      await deferredPrompt.prompt();
-      const choiceResult = await deferredPrompt.userChoice;
-      console.log(choiceResult.outcome);
-    });
-  </script>
-
 </body>
 </html>

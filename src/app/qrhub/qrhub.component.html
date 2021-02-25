@@ -1,0 +1,8 @@
+<div mat-dialog-content class="mat-dialog-content">
+    <mat-tab-group>
+        <mat-tab label="Teilen">
+            <qrcode [qrdata]="qr_data" [width]="400" [errorCorrectionLevel]="'M'" [elementType]="'svg'"></qrcode>
+        </mat-tab>
+        <mat-tab label="QR-Code scannen"> QR-Live-Scanner</mat-tab>
+      </mat-tab-group>
+</div>

@@ -11,8 +11,12 @@
 
 .home-chart{
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    // flex-direction:row;
+    flex-wrap: wrap;
+    width: calc(100vw - 20px);
+    height: calc((100vw - 20px) * 0.5625); /*16:9 aspect ratio*/
+    // flex: 1;
+    // width: 100%;
 }
 
 .home-slider{
@@ -33,9 +37,10 @@ button{
 }
 
 #myChart{
-    height: fit-content;
-    width: 80%;
+    //height: fit-content;
+    // width: 80%;
 }
+
 #numTries{
     width:100%;
 }

@@ -8,18 +8,36 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { MatToolbarModule } from  '@angular/material/toolbar';
+import { MatCardModule} from  '@angular/material/card';
+import { MatButtonModule } from  '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatTabsModule } from '@angular/material/tabs';
+import { QRCodeModule } from 'angularx-qrcode';
+import { QrhubComponent } from './qrhub/qrhub.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     // HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    QrhubComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatSliderModule,
+    MatDialogModule,
+    MatTabsModule,
+    QRCodeModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

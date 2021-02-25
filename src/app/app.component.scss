@@ -1,7 +1,8 @@
 .app-box {
-	height: 100%;
 	display: flex;
   flex-direction: column;
+  justify-content: end;
+  padding-left: 15px;
   padding-right: 15px;
   }
 
@@ -14,11 +15,27 @@ app-home{
   display: flex;
   flex: 1;
   padding-top: 20px;
-  //  background-color: rgb(6, 207, 207);
+  // background-color: red;
   }
 
 app-footer{
   display: flex;
+
   // background-color: darkcyan;
   margin-bottom: 15px;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  mat-toolbar{
+    background-color: #1976d2;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  button{
+    background-color: white;
+    color: black;
   }
