@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614375699276,
+  "timestamp": 1614376074288,
   "appData": {
-    "version": "0.0.4.1",
+    "version": "0.0.4.1a",
     "changelog": "Der Scanner für den QR-Code wurde implementiert."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
