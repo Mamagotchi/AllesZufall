@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614361989126,
+  "timestamp": 1614362290339,
   "appData": {
-    "version": "0.0.4c",
+    "version": "0.0.4d",
     "changelog": "Der Scanner für den QR-Code wurde implementiert, funktioniert aber noch nicht. Ein Testausgabe wurde hinzugefügt."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.8b7fbddceaa8c46e503d.js",
+        "https://mamagotchi.github.io/alleszufall/main.7fc15638b37c08378bb8.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -116,8 +116,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "31087314b7d259bcde2fd9136440a3c3fce7ba4e",
-    "https://mamagotchi.github.io/alleszufall/main.8b7fbddceaa8c46e503d.js": "20f056d97c76aa775f9dc8554be63dda52e23df6",
+    "https://mamagotchi.github.io/alleszufall/index.html": "90fb403395a8d57e090fac037d92fa153ed14ce9",
+    "https://mamagotchi.github.io/alleszufall/main.7fc15638b37c08378bb8.js": "34dc41734c1cc21f7b03dcfbcafed513d29188ea",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
