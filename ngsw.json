@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614378995297,
+  "timestamp": 1614379410232,
   "appData": {
-    "version": "0.0.4.1",
+    "version": "0.0.4.1a",
     "changelog": "Der Scanner für den QR-Code wurde implementiert. Testlauf"
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.6b5df18411cd1707ca1c.js",
+        "https://mamagotchi.github.io/alleszufall/main.3b808724cf007615751d.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -116,8 +116,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "5d45a99652f93503e5d354ffe16a8fdb25e9c5b1",
-    "https://mamagotchi.github.io/alleszufall/main.6b5df18411cd1707ca1c.js": "08025f105ce90cd5fcf96ca76d96bfdf9bb681da",
+    "https://mamagotchi.github.io/alleszufall/index.html": "d3e4ba21d83de92a46f6ddb34d5bc322f2501bd5",
+    "https://mamagotchi.github.io/alleszufall/main.3b808724cf007615751d.js": "4d7fcc25c969f0f223891e759e5733dffd45a0f4",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
