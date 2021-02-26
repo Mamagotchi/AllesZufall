@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614288812447,
+  "timestamp": 1614361617338,
   "appData": {
-    "version": "0.0.4a",
-    "changelog": "Deine Datenreihe kann jetzt als QR-Code geteilt werden."
+    "version": "0.0.4b",
+    "changelog": "Der Scanner für den QR-Code wurde implementiert, funktioniert aber noch nicht."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
@@ -17,11 +17,11 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.86ef4c90a4532acd375b.js",
+        "https://mamagotchi.github.io/alleszufall/main.a02ba2bd0843c448f69d.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
-        "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js",
-        "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js",
-        "https://mamagotchi.github.io/alleszufall/styles.9b7e4923b02fde71605b.css"
+        "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
+        "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
+        "https://mamagotchi.github.io/alleszufall/styles.0abb28f530ec7a2ba46e.css"
       ],
       "patterns": []
     },
@@ -116,12 +116,12 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "0f5954e3dc931aaff6b9991fe2da33126bac0979",
-    "https://mamagotchi.github.io/alleszufall/main.86ef4c90a4532acd375b.js": "0f52aac4aa47ac4c335c8e193758b073e35111e4",
+    "https://mamagotchi.github.io/alleszufall/index.html": "47301c0a36ba3ddd0540fcc51b3f4ed41ceb8510",
+    "https://mamagotchi.github.io/alleszufall/main.a02ba2bd0843c448f69d.js": "8fc386ebab648e1f3d6d0085709c9a66a55a1722",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
-    "https://mamagotchi.github.io/alleszufall/polyfills.2e89f9530eab053a7df4.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "https://mamagotchi.github.io/alleszufall/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://mamagotchi.github.io/alleszufall/styles.9b7e4923b02fde71605b.css": "c1d703c7fbb59f90fc8c33d879e9a95796edf6a4"
+    "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://mamagotchi.github.io/alleszufall/styles.0abb28f530ec7a2ba46e.css": "b861a95401808eeba30ad24d7b64c724b993da68"
   },
   "navigationUrls": [
     {
