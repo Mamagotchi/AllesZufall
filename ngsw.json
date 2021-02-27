@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614466414339,
+  "timestamp": 1614466720615,
   "appData": {
-    "version": "0.0.4.1a",
+    "version": "0.0.4.1b",
     "changelog": "Fehlersuche iOS"
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.2a71fffe1d16c39a5e01.js",
+        "https://mamagotchi.github.io/alleszufall/main.1a7f7af61505c2b9fa1a.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -116,8 +116,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "577316be6b373ae76c2a5007599bc8496dda84cd",
-    "https://mamagotchi.github.io/alleszufall/main.2a71fffe1d16c39a5e01.js": "431d11160969a5ebf99f08a381489e425da6c74c",
+    "https://mamagotchi.github.io/alleszufall/index.html": "cc81f08c141b534444ff03ccbe44f74d5cce1b18",
+    "https://mamagotchi.github.io/alleszufall/main.1a7f7af61505c2b9fa1a.js": "9ff4175882a8920b1060d5501e2c660a6a052d1e",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
