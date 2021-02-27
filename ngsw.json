@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614466720615,
+  "timestamp": 1614467590479,
   "appData": {
-    "version": "0.0.4.1b",
-    "changelog": "Fehlersuche iOS"
+    "version": "0.0.4.1",
+    "changelog": "Du kannst jetzt deine Wurfreihe mit anderen via QR-Code teilen."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
