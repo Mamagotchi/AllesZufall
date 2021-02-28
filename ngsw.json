@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614467590479,
+  "timestamp": 1614542589890,
   "appData": {
-    "version": "0.0.4.1",
-    "changelog": "Du kannst jetzt deine Wurfreihe mit anderen via QR-Code teilen."
+    "version": "0.1",
+    "changelog": "Alle Funktionen sind enthalten und können verwendet werden."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
@@ -17,11 +17,11 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.1a7f7af61505c2b9fa1a.js",
+        "https://mamagotchi.github.io/alleszufall/main.6e310562b997702a3115.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
-        "https://mamagotchi.github.io/alleszufall/styles.0abb28f530ec7a2ba46e.css"
+        "https://mamagotchi.github.io/alleszufall/styles.f6a6347603eb8ea848ce.css"
       ],
       "patterns": []
     },
@@ -60,6 +60,7 @@
         "https://mamagotchi.github.io/alleszufall/assets/icons/icon-512x512.png",
         "https://mamagotchi.github.io/alleszufall/assets/icons/icon-72x72.png",
         "https://mamagotchi.github.io/alleszufall/assets/icons/icon-96x96.png",
+        "https://mamagotchi.github.io/alleszufall/assets/qr_icon.png",
         "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1136.png",
         "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1536.png",
         "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_768.png",
@@ -104,6 +105,7 @@
     "https://mamagotchi.github.io/alleszufall/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://mamagotchi.github.io/alleszufall/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://mamagotchi.github.io/alleszufall/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://mamagotchi.github.io/alleszufall/assets/qr_icon.png": "d725a5d15933f883d2fc155f422e6f05fae0b613",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1136.png": "37173588535a9348145f7b017ae0168808bbafad",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_1536.png": "d1e6757e551c409a88bd03397c5a722de8d2777e",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Archiv/Launch_768.png": "cea3e0d0367c3376db5ac9a36d74d8e646f11df9",
@@ -116,12 +118,12 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "cc81f08c141b534444ff03ccbe44f74d5cce1b18",
-    "https://mamagotchi.github.io/alleszufall/main.1a7f7af61505c2b9fa1a.js": "9ff4175882a8920b1060d5501e2c660a6a052d1e",
+    "https://mamagotchi.github.io/alleszufall/index.html": "46d2cfc2677ff5711037a81594f1e31bdd343753",
+    "https://mamagotchi.github.io/alleszufall/main.6e310562b997702a3115.js": "4b0943da0a68b324f2e0cc325d249a505c8c78cc",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://mamagotchi.github.io/alleszufall/styles.0abb28f530ec7a2ba46e.css": "b861a95401808eeba30ad24d7b64c724b993da68"
+    "https://mamagotchi.github.io/alleszufall/styles.f6a6347603eb8ea848ce.css": "c9e143479736f5c8b012aaec4054944f83131897"
   },
   "navigationUrls": [
     {
