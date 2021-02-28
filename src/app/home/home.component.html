@@ -1,19 +1,22 @@
 <div class="home-box">
-    <div class="home-neu">
-        <button mat-flat-button (click)="Create_random_numbers(true)">Neu</button>
-        <button mat-flat-button (click)="openDialog()">QR-Code</button>
-    </div>
-    
-    <div id="home-chart">
-        <canvas id="myChart"></canvas>
-    </div>
 
-    <div class="home-slider">
-        <div class="home-slider-sub">
-            <label id="numTries">Anzahl der Würfe: {{num_try}}</label>
-            <button mat-flat-button (click)="valueChange(-1)">-1</button>
-            <button mat-flat-button (click)="valueChange(1)">+1</button>
-        </div>
-        <mat-slider min="1" max="500" step="1" value={{num_try}} class="slider" id="myRange" (input)="getSliderValue($event,0,true)" (change)="saveValue($event, true)"></mat-slider>
-    </div>
+    <button mat-flat-button id="Btn_Neu" (click)="Create_random_numbers(true)">Neu</button>
+    <!-- <div id="Datenschutz_box"><button mat-flat-button id="Btn_Datenschutz" (click)="showDatenschutz()">Datenschutz</button></div> -->
+    <button mat-flat-button id="Btn_QR" (click)="openDialog()">
+        <img src="../../assets/qr_icon.png" alt="QR-Code" for="Btn_QR" width="25px">
+    </button>
+    
+
+    <canvas id="myChart" for="Chart_Box"></canvas>
+
+    
+    <label id="y_titel">absolute Häufigkeit</label>
+    <label id="x_titel">Farben</label>
+    
+    <div id="Tries_box"><label id="numTries">Anzahl der Würfe: {{num_try}}</label></div>
+    <button mat-flat-button id="Btn_Minus" (click)="valueChange(-1)">-1</button>
+    <button mat-flat-button id="Btn_Plus" (click)="valueChange(1)">+1</button>
+    
+    <mat-slider min="1" max="500" step="1" value={{num_try}} class="slider" id="myRange" (input)="getSliderValue($event,0,true)" (change)="saveValue($event, true)"></mat-slider>
+
 </div>

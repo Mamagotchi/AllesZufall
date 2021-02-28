@@ -17,6 +17,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
 import { QRCodeModule } from 'angularx-qrcode';
 import { QrhubComponent } from './qrhub/qrhub.component'
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
+import { DatenschutzComponent } from './datenschutz/datenschutz.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { QrhubComponent } from './qrhub/qrhub.component'
     // HeaderComponent,
     FooterComponent,
     HomeComponent,
-    QrhubComponent
+    QrhubComponent,
+    DatenschutzComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +39,7 @@ import { QrhubComponent } from './qrhub/qrhub.component'
     MatDialogModule,
     MatTabsModule,
     QRCodeModule,
+    ZXingScannerModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule
   ],

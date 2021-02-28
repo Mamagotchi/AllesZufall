@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Chart } from 'node_modules/chart.js'
 import { MatDialog } from '@angular/material/dialog';
 import { QrhubComponent } from '../qrhub/qrhub.component';
+import { BLACK_ON_WHITE_CSS_CLASS } from '@angular/cdk/a11y/high-contrast-mode/high-contrast-mode-detector';
+import { RGBLuminanceSource } from '@zxing/library';
 
 var myChart_global = null;
 var rdm_number: number[];
@@ -17,6 +19,7 @@ function create_chart(num_try_send: number, ani_num:number){
         datasets: [{
             label: 'Alles Zufall?',
             data: chart_arr[num_try_send],
+            color: 'rgb(66, 66, 66)',
             backgroundColor: [
                 'rgb(189, 63, 51)',
                 'rgb(115, 175, 85)',
@@ -33,6 +36,11 @@ function create_chart(num_try_send: number, ani_num:number){
         }]
     },
     options: {
+      legend: {
+        labels: {
+            fontColor: 'rgb(66, 66, 66)',
+        }
+      },
       animation: {
         duration: ani_num
       },
@@ -43,15 +51,23 @@ function create_chart(num_try_send: number, ani_num:number){
         scales: {
           xAxes: [{
             gridLines: {
-                drawOnChartArea: false
-              }
+                drawOnChartArea: false,
+                color: 'rgb(66, 66, 66)',
+              },
+              ticks: {
+                fontColor: 'rgb(66, 66, 66)',
+            }
             }],
             yAxes: [{
               gridLines: {
-                drawOnChartArea: false
+                drawOnChartArea: false,
+                color: 'rgb(66, 66, 66)'
               },
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    color: 'rgb(0, 0, 0)',
+                    fontColor: 'rgb(66, 66, 66)',
+
                 }
             }]
         }
@@ -203,40 +219,56 @@ export class HomeComponent implements OnInit {
     }); //Box mit Datenweitergabe
 
     dialogRef.afterClosed().subscribe(result => {
+      if (result != undefined)
+      {
         //Hier können Aktionen nach dem Schließen des Fensters ausgeführt werden
-        if (result != undefined)
-        {
-          // for (var i:number =0; i< STOER_DATA.length; i++) {
-          //   if (STOER_DATA[i].id.match(result.id_data_box))
-          //   {
-          //     STOER_DATA[i].t_status = result.status_box;
-          //     STOER_DATA[i].termin = result.termin_box;
-          //     STOER_DATA[i].t_fertig = result.fertig_box;
+        var farbe_array: number[];
+        rdm_number = new Array(501);
+        chart_arr = new Array(501);
+  
+        //console.log(result);
 
-          //     switch(result.status_box.toString()) { 
-          //       case "0": { 
-          //         STOER_DATA[i].t_status_str ="Schaden gemeldet";
-          //         break; 
-          //       } 
-          //       case "1": { 
-          //         STOER_DATA[i].t_status_str ="in Bearbeitung";
-          //         break; 
-          //       } 
-          //       case "2": {
-          //         STOER_DATA[i].t_status_str ="erledigt"; 
-          //         break;    
-          //       }
-              
-          //     }
-          //   }
-          // }
+        //chart_arr[0] initialisieren
+        chart_arr[0] = [0,0,0,0];
+        rdm_number[0] = 0;
 
+        //console.log(result);
+  
+        for (var i:number = 1; i <= 500; i++)
+        { // print numbers from 1 to 500
+          rdm_number[i] = Number(result[i]);
+            
+            farbe_array = this.get_color(rdm_number[i]);
+  
+            for(var e in farbe_array) { 
+              chart_arr[i] = [chart_arr[i-1][0] + farbe_array[0],
+                              chart_arr[i-1][1] + farbe_array[1],
+                              chart_arr[i-1][2] + farbe_array[2],
+                              chart_arr[i-1][3] + farbe_array[3]
+                            ];
+            }
         }
+  
+        // Werte in die Chart übernehmen
+        if(myChart_global!=null){
+          myChart_global.destroy();
+        }
+  
+        //Werte lokal speichern
+        localStorage.setItem("random500", JSON.stringify(chart_arr));
+        localStorage.setItem("wuerfe500", JSON.stringify(rdm_number));
+  
+        create_chart(this.num_try, 1500);
+      }
+        
     });
 
   }
 
 
+  showDatenschutz(){
+    // Noch erstellen
+  }
 
   ngOnInit(): void {
     //Überprüfen, ob Wert von SLider existiert
@@ -257,6 +289,10 @@ export class HomeComponent implements OnInit {
     }
     else{
       // console.log("Vorhanden");
+/*       var test:string[] = new Array(501);
+      test = JSON.parse(localStorage.getItem("wuerfe500").replace("/[/gi","").replace("/]/gi",""));
+      console.log(test); */
+      //console.log(JSON.parse(localStorage.getItem("wuerfe500")));
       chart_arr = JSON.parse(localStorage.getItem("random500"));
       create_chart(this.num_try, 1500);
     }

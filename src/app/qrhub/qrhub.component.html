@@ -1,8 +1,14 @@
 <div mat-dialog-content class="mat-dialog-content">
     <mat-tab-group>
         <mat-tab label="Teilen">
-            <qrcode [qrdata]="qr_data" [width]="400" [errorCorrectionLevel]="'M'" [elementType]="'svg'"></qrcode>
+            <div id="mat-tab-box">
+                <qrcode id="qrcode_show" [qrdata]="qr_data" [width]="300" [errorCorrectionLevel]="'M'" [elementType]="'svg'"></qrcode>
+            </div>
         </mat-tab>
-        <mat-tab label="QR-Code scannen"> QR-Live-Scanner</mat-tab>
+        <mat-tab label="QR-Code scannen">
+            <div id="mat-tab-box">
+                <zxing-scanner [formats]="formatsEnabled" [tryHarder]="tryHarder" (scanSuccess)="onCodeResult($event)" ></zxing-scanner>
+            </div>
+        </mat-tab>
       </mat-tab-group>
 </div>
