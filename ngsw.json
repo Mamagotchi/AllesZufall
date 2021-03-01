@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614544935723,
+  "timestamp": 1614594914878,
   "appData": {
-    "version": "0.1.1",
-    "changelog": "Es wurden die Anzeige des Diagramms verbessert."
+    "version": "0.2",
+    "changelog": "Das Diagramm erstreckt sich jetzt über den kompletten Bildschirm. Unter Android kann die App jetzt auch im Landscape-Mode genutzt werden."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.3d29adeb79605478a70d.js",
+        "https://mamagotchi.github.io/alleszufall/main.1fc19ef956b0505ea79f.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,9 +118,9 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "bdf531915d11d26d3ae54689df0a430983897fba",
-    "https://mamagotchi.github.io/alleszufall/main.3d29adeb79605478a70d.js": "9ecbb49ae7577dfbf2af989c1d825ebab580f389",
-    "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "89924beb1ead1c1d02bd9287893bfc858f9fdb59",
+    "https://mamagotchi.github.io/alleszufall/index.html": "bbd8e9b904ff9236143d5030a2c4d47aee592373",
+    "https://mamagotchi.github.io/alleszufall/main.1fc19ef956b0505ea79f.js": "9551fa112e753f16895a977c9c6844fefddeff67",
+    "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://mamagotchi.github.io/alleszufall/styles.f6a6347603eb8ea848ce.css": "c9e143479736f5c8b012aaec4054944f83131897"
