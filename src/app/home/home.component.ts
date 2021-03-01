@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Chart } from 'node_modules/chart.js'
 import { MatDialog } from '@angular/material/dialog';
 import { QrhubComponent } from '../qrhub/qrhub.component';
@@ -36,6 +36,9 @@ function create_chart(num_try_send: number, ani_num:number){
         }]
     },
     options: {
+      maintainAspectRatio: false,
+      aspectRatio: 4,
+      responsive: true,
       legend: {
         labels: {
             fontColor: 'rgb(66, 66, 66)',
@@ -65,6 +68,8 @@ function create_chart(num_try_send: number, ani_num:number){
               },
                 ticks: {
                     beginAtZero: true,
+                    callback: function (value) { if (Number.isInteger(value)) { return value; } },
+                    // stepSize: 1,
                     color: 'rgb(0, 0, 0)',
                     fontColor: 'rgb(66, 66, 66)',
 
@@ -80,6 +85,7 @@ function create_chart(num_try_send: number, ani_num:number){
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }
@@ -268,6 +274,26 @@ export class HomeComponent implements OnInit {
 
   showDatenschutz(){
     // Noch erstellen
+  }
+
+
+/*   // Listen for orientation changes
+  window.addEventListener("orientationchange", function() {
+    // Announce the new orientation number
+    alert(window.orientation);
+  }, false); */
+
+  @HostListener('window:orientationchange')
+
+  onorientationchange() {
+    //alert(window.orientation);
+    if(window.orientation==90 || window.orientation ==270){
+      myChart_global.options.aspectRatio = 4;
+    }
+    else{
+      myChart_global.options.aspectRatio = 0.25;
+    }
+
   }
 
   ngOnInit(): void {
