@@ -1,9 +1,9 @@
 {
   "configVersion": 1,
-  "timestamp": 1614598080214,
+  "timestamp": 1614604122824,
   "appData": {
-    "version": "0.2.1",
-    "changelog": "Das Diagramm erstreckt sich jetzt über den kompletten Bildschirm. Unter Android kann die App jetzt auch im Landscape-Mode genutzt werden."
+    "version": "0.2.1a",
+    "changelog": "Versuch Darstellungsprobleme bei der Webseite zu beheben."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
   "assetGroups": [
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.371b4125c001e1767a77.js",
+        "https://mamagotchi.github.io/alleszufall/main.0864a75302fb1561acb7.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,8 +118,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "8473cc4f780bbd98fe3b78f36457d12fddbfc533",
-    "https://mamagotchi.github.io/alleszufall/main.371b4125c001e1767a77.js": "b9de43a06d6f7356b4b7335a7972095ed698117a",
+    "https://mamagotchi.github.io/alleszufall/index.html": "ea375e307dcfe8d5c4f0135c46320e07c979c878",
+    "https://mamagotchi.github.io/alleszufall/main.0864a75302fb1561acb7.js": "97afa1597d91d81330b83de3dc998723ed11e1cf",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
