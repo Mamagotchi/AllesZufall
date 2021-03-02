@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1614725775207,
+  "timestamp": 1614726040737,
   "appData": {
     "version": "0.2.2",
     "changelog": "Bugfix: Darstellung unter iOS im Safari-Browser"
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.122e28f6c209db6aa517.js",
+        "https://mamagotchi.github.io/alleszufall/main.78ee5b5cedf3c915baa5.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,8 +118,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "6f26db4b6daec2745ee13149f4309c4181d262f8",
-    "https://mamagotchi.github.io/alleszufall/main.122e28f6c209db6aa517.js": "de7cfa97662ced89e69ab00fe5c9bacd5224978b",
+    "https://mamagotchi.github.io/alleszufall/index.html": "c34dff70ecd4607278dbca18d8e8784aad1b0263",
+    "https://mamagotchi.github.io/alleszufall/main.78ee5b5cedf3c915baa5.js": "f596158f1429f13cc8514d5eff19bde44adc7556",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
