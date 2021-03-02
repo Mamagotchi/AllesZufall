@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1614723532194,
+  "timestamp": 1614724621688,
   "appData": {
     "version": "0.2.1j",
     "changelog": "Bugfix: Darstellung unter iOS im Safari-Browser"
@@ -17,11 +17,11 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.804784cb7065fbf3c1d4.js",
+        "https://mamagotchi.github.io/alleszufall/main.ab25adf11f0d15f46531.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
-        "https://mamagotchi.github.io/alleszufall/styles.fc8bf6e7fe83a477d513.css"
+        "https://mamagotchi.github.io/alleszufall/styles.ac871be4b31f43f88fd9.css"
       ],
       "patterns": []
     },
@@ -118,12 +118,12 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "b03f67208f8e5bb3f56eafbe3ac49bb6a453f44a",
-    "https://mamagotchi.github.io/alleszufall/main.804784cb7065fbf3c1d4.js": "f56edaa58018a5d985d83c36ff983e6b2220992c",
+    "https://mamagotchi.github.io/alleszufall/index.html": "e89fc28247bd2de61212a4e257464a2b2d9b8b5c",
+    "https://mamagotchi.github.io/alleszufall/main.ab25adf11f0d15f46531.js": "6c92c976abbb7e324bc7fb2d003e70542e0ebe4f",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://mamagotchi.github.io/alleszufall/styles.fc8bf6e7fe83a477d513.css": "9f335bec67998406b0423469d39c066013b55a9c"
+    "https://mamagotchi.github.io/alleszufall/styles.ac871be4b31f43f88fd9.css": "022e9c946c3a4dd4bd1a6c8f08b778c6ea2badec"
   },
   "navigationUrls": [
     {
