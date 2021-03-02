@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1614714800513,
+  "timestamp": 1614715427281,
   "appData": {
     "version": "0.2.1d",
     "changelog": "Versuch Darstellungsprobleme bei der Webseite zu beheben."
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.530f7c3d932572f5e873.js",
+        "https://mamagotchi.github.io/alleszufall/main.9879c8500161993c4739.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,8 +118,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "5e39c38f77b927795bcee4dd149ad37b6af82870",
-    "https://mamagotchi.github.io/alleszufall/main.530f7c3d932572f5e873.js": "097d49465ff0bd6cf29b093bc3e7e5d6b5910f7f",
+    "https://mamagotchi.github.io/alleszufall/index.html": "9deff0326b2769dcd8289503f6c40df3b6c403aa",
+    "https://mamagotchi.github.io/alleszufall/main.9879c8500161993c4739.js": "800a52e6974fd5063d61e68381de541ab5c99d40",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
