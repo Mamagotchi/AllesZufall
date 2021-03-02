@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614722512696,
+  "timestamp": 1614722880007,
   "appData": {
-    "version": "0.2.1i",
+    "version": "0.2.1j",
     "changelog": "Bugfix: Darstellung unter iOS im Safari-Browser"
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.3ee58020c5dc106496c8.js",
+        "https://mamagotchi.github.io/alleszufall/main.033528c133af285ce32b.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,8 +118,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "f45c97b6c71a8c4e4dbaebe845d4fb933c8d6331",
-    "https://mamagotchi.github.io/alleszufall/main.3ee58020c5dc106496c8.js": "dd5869f21f15d2a03e8b3c744bee061fe1048c26",
+    "https://mamagotchi.github.io/alleszufall/index.html": "c13b059f8d530d5ae6cf7248110dc041f7213b95",
+    "https://mamagotchi.github.io/alleszufall/main.033528c133af285ce32b.js": "4a1dfaa24c62b803cbc66f92ad5f1ee4da4ec920",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
