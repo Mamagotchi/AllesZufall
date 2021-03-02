@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614719315707,
+  "timestamp": 1614719621377,
   "appData": {
-    "version": "0.2.1d",
+    "version": "0.2.1e",
     "changelog": "Versuch Darstellungsprobleme bei der Webseite zu beheben."
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.171f090b5864bd55558f.js",
+        "https://mamagotchi.github.io/alleszufall/main.3bde7d3ab17f4b4144f8.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,8 +118,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "9ebcbb2e5d25dcb8cd91ecfd6c5010bc123f4fab",
-    "https://mamagotchi.github.io/alleszufall/main.171f090b5864bd55558f.js": "fd3935c12d4ba97bd1dd5d7b17d5a8c620213d72",
+    "https://mamagotchi.github.io/alleszufall/index.html": "86389ba3009518042118394344f2585b554cc2b4",
+    "https://mamagotchi.github.io/alleszufall/main.3bde7d3ab17f4b4144f8.js": "00f7c6f7c8c3a7114d8c2a417013a353a6bb46b2",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
