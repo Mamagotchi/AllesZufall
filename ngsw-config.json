@@ -2,8 +2,8 @@
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
   "index": "/index.html",
   "appData": {
-    "version": "0.2",
-    "changelog": "Das Diagramm erstreckt sich jetzt über den kompletten Bildschirm. Unter Android kann die App jetzt auch im Landscape-Mode genutzt werden."
+    "version": "0.2.1d",
+    "changelog": "Versuch Darstellungsprobleme bei der Webseite zu beheben."
   },
   "assetGroups": [
     {

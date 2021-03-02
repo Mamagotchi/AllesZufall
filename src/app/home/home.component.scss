@@ -6,7 +6,7 @@ label{
 .home-box{
     display: grid;
     grid-template-columns: 40px auto 100px 90px;
-    grid-template-rows: 40px auto 40px 40px 40px;
+    grid-template-rows: 40px auto 40px 40px 80px;
     max-height: calc(100vh - 100px);
 }
 
@@ -35,12 +35,63 @@ label{
     margin-left: 5px;
 }
 
-#myChart{
+
+
+@media (max-height: 649px) and (display-mode: standalone) {
+    #myChart_iOS{
+        grid-row: 2;
+        grid-column: 2 / 5;
+        height: calc(100vh - 270px) !important;
+        max-height: calc(100vh - 270px) !important;
+        max-width: calc(100vw - 65px);
+    }
+}
+
+@media (min-height: 650px) and (display-mode: standalone) {
+    #myChart_iOS{
+        grid-row: 2;
+        grid-column: 2 / 5;
+        height: calc(100vh - 320px) !important;
+        max-height: calc(100vh - 320px) !important;
+        max-width: calc(100vw - 65px);
+    }
+}
+
+
+@media (max-height: 649px) and (display-mode: browser) {
+    #myChart_iOS{
+        grid-row: 2;
+        grid-column: 2 / 5;
+        height: calc(100vh - 270px) !important;
+        max-height: calc(100vh - 270px) !important;
+        max-width: calc(100vw - 65px);
+    }
+}
+
+@media (min-height: 650px) and (display-mode: browser) {
+    #myChart_iOS{
+        grid-row: 2;
+        grid-column: 2 / 5;
+        height: calc(100vh - 320px) !important;
+        max-height: calc(100vh - 320px) !important;
+        max-width: calc(100vw - 65px);
+    }
+}
+
+
+#myChart_Android{
+    grid-row: 2;
+    grid-column: 2 / 5;
+    height: calc(100vh - 310px) !important;
+    max-height: calc(100vh - 310px) !important;
+    max-width: calc(100vw - 65px);
+}
+
+#myChart_default{
     grid-row: 2;
     grid-column: 2 / 5;
     height: calc(100vh - 190px) !important;
-    /*width: 100% !important; */
-    max-height: calc(100vh - 190px);
+    max-height: calc(100vh - 190px) !important;
     max-width: calc(100vw - 65px);
 }
 
@@ -89,13 +140,14 @@ label{
     grid-row: 5;
     grid-column: 1 / span 4;
     width: calc(100vw - 30px);
+    margin-bottom: 40px;
 }
 
 button{
     width:80px;
 }
 
-/* very small Screens in landscap*/
+/* very small Screens in landscape*/
 @media (max-height: 350px) and (orientation:landscape){
 
     #x_titel, #y_titel{
@@ -103,3 +155,44 @@ button{
     }
 
 }
+
+@media all and (display-mode: standalone) {
+    #myChart_iOS, #myChart_Android, #myChart_default{
+        grid-row: 2;
+        grid-column: 2 / 5;
+        height: calc(100vh - 190px) !important;
+        max-height: calc(100vh - 190px) !important;
+        max-width: calc(100vw - 65px);
+    }
+  }
+
+  @media (orientation:landscape) and (display-mode: browser) {
+    @media (max-height: 339px){
+        #myChart_iOS{
+            grid-row: 2;
+            grid-column: 2 / 5;
+            height: calc(100vh - 250px) !important;
+            max-height: calc(100vh - 250px) !important;
+            max-width: calc(100vw - 65px);
+        }
+    }
+
+    @media (min-height: 340px){
+        #myChart_iOS{
+            grid-row: 2;
+            grid-column: 2 / 5;
+            height: calc(100vh - 290px) !important;
+            max-height: calc(100vh - 290px) !important;
+            max-width: calc(100vw - 65px);
+        }
+    }
+
+    #myChart_Android{
+        grid-row: 2;
+        grid-column: 2 / 5;
+        height: calc(100vh - 240px) !important;
+        max-height: calc(100vh - 240px) !important;
+        max-width: calc(100vw - 65px);
+    }
+  }
+

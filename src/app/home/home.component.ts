@@ -2,7 +2,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { Chart } from 'node_modules/chart.js'
 import { MatDialog } from '@angular/material/dialog';
 import { QrhubComponent } from '../qrhub/qrhub.component';
-import { BLACK_ON_WHITE_CSS_CLASS } from '@angular/cdk/a11y/high-contrast-mode/high-contrast-mode-detector';
+import { DeviceDetectorService, DeviceInfo } from 'ngx-device-detector';
 import { RGBLuminanceSource } from '@zxing/library';
 
 var myChart_global = null;
@@ -11,73 +11,217 @@ var chart_arr:number[][];
 
 chart_arr = new Array(501);
 
-function create_chart(num_try_send: number, ani_num:number){
-  myChart_global = new Chart("myChart", {
-    type: 'bar',
-    data: {
-        labels: ['Rot', 'Grün', 'Gelb', 'Blau'],
-        datasets: [{
-            label: 'Alles Zufall?',
-            data: chart_arr[num_try_send],
-            color: 'rgb(66, 66, 66)',
-            backgroundColor: [
-                'rgb(189, 63, 51)',
-                'rgb(115, 175, 85)',
-                'rgb(242, 211, 0)',
-                'rgb(65, 122, 167)',
-            ],
-            borderColor: [
-                'rgb(189, 63, 51)',
-                'rgb(115, 175, 85)',
-                'rgb(242, 211, 0)',
-                'rgb(65, 122, 167)',
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-      maintainAspectRatio: false,
-      aspectRatio: 4,
-      responsive: true,
-      legend: {
-        labels: {
-            fontColor: 'rgb(66, 66, 66)',
-        }
-      },
-      animation: {
-        duration: ani_num
-      },
-      title: {
-        display: false,
-        text: 'Custom Chart Title'
-      },
-        scales: {
-          xAxes: [{
-            gridLines: {
-                drawOnChartArea: false,
-                color: 'rgb(66, 66, 66)',
-              },
-              ticks: {
-                fontColor: 'rgb(66, 66, 66)',
-            }
-            }],
-            yAxes: [{
-              gridLines: {
-                drawOnChartArea: false,
-                color: 'rgb(66, 66, 66)'
-              },
-                ticks: {
-                    beginAtZero: true,
-                    callback: function (value) { if (Number.isInteger(value)) { return value; } },
-                    // stepSize: 1,
-                    color: 'rgb(0, 0, 0)',
-                    fontColor: 'rgb(66, 66, 66)',
+function create_chart(num_try_send: number, ani_num:number, deviceOS_send:string){
 
+    //Styles checken
+    switch (deviceOS_send) {
+      case 'ios':
+          myChart_global = new Chart("myChart_iOS", {
+            type: 'bar',
+            data: {
+                labels: ['Rot', 'Grün', 'Gelb', 'Blau'],
+                datasets: [{
+                    label: 'Alles Zufall?',
+                    data: chart_arr[num_try_send],
+                    color: 'rgb(66, 66, 66)',
+                    backgroundColor: [
+                        'rgb(189, 63, 51)',
+                        'rgb(115, 175, 85)',
+                        'rgb(242, 211, 0)',
+                        'rgb(65, 122, 167)',
+                    ],
+                    borderColor: [
+                        'rgb(189, 63, 51)',
+                        'rgb(115, 175, 85)',
+                        'rgb(242, 211, 0)',
+                        'rgb(65, 122, 167)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+              maintainAspectRatio: false,
+              aspectRatio: 4,
+              responsive: true,
+              legend: {
+                labels: {
+                    fontColor: 'rgb(66, 66, 66)',
                 }
-            }]
-        }
-    }
-  });
+              },
+              animation: {
+                duration: ani_num
+              },
+              title: {
+                display: false,
+                text: 'Custom Chart Title'
+              },
+                scales: {
+                  xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false,
+                        color: 'rgb(66, 66, 66)',
+                      },
+                      ticks: {
+                        fontColor: 'rgb(66, 66, 66)',
+                    }
+                    }],
+                    yAxes: [{
+                      gridLines: {
+                        drawOnChartArea: false,
+                        color: 'rgb(66, 66, 66)'
+                      },
+                        ticks: {
+                            beginAtZero: true,
+                            callback: function (value) { if (Number.isInteger(value)) { return value; } },
+                            // stepSize: 1,
+                            color: 'rgb(0, 0, 0)',
+                            fontColor: 'rgb(66, 66, 66)',
+        
+                        }
+                    }]
+                }
+            }
+          });
+          break;
+
+      case 'android':
+        myChart_global = new Chart("myChart_Android", {
+            type: 'bar',
+            data: {
+                labels: ['Rot', 'Grün', 'Gelb', 'Blau'],
+                datasets: [{
+                    label: 'Alles Zufall?',
+                    data: chart_arr[num_try_send],
+                    color: 'rgb(66, 66, 66)',
+                    backgroundColor: [
+                        'rgb(189, 63, 51)',
+                        'rgb(115, 175, 85)',
+                        'rgb(242, 211, 0)',
+                        'rgb(65, 122, 167)',
+                    ],
+                    borderColor: [
+                        'rgb(189, 63, 51)',
+                        'rgb(115, 175, 85)',
+                        'rgb(242, 211, 0)',
+                        'rgb(65, 122, 167)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+              maintainAspectRatio: false,
+              aspectRatio: 4,
+              responsive: true,
+              legend: {
+                labels: {
+                    fontColor: 'rgb(66, 66, 66)',
+                }
+              },
+              animation: {
+                duration: ani_num
+              },
+              title: {
+                display: false,
+                text: 'Custom Chart Title'
+              },
+                scales: {
+                  xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false,
+                        color: 'rgb(66, 66, 66)',
+                      },
+                      ticks: {
+                        fontColor: 'rgb(66, 66, 66)',
+                    }
+                    }],
+                    yAxes: [{
+                      gridLines: {
+                        drawOnChartArea: false,
+                        color: 'rgb(66, 66, 66)'
+                      },
+                        ticks: {
+                            beginAtZero: true,
+                            callback: function (value) { if (Number.isInteger(value)) { return value; } },
+                            // stepSize: 1,
+                            color: 'rgb(0, 0, 0)',
+                            fontColor: 'rgb(66, 66, 66)',
+        
+                        }
+                    }]
+                }
+            }
+          });
+          break;
+
+      default:
+          myChart_global = new Chart("myChart_default", {
+            type: 'bar',
+            data: {
+                labels: ['Rot', 'Grün', 'Gelb', 'Blau'],
+                datasets: [{
+                    label: 'Alles Zufall?',
+                    data: chart_arr[num_try_send],
+                    color: 'rgb(66, 66, 66)',
+                    backgroundColor: [
+                        'rgb(189, 63, 51)',
+                        'rgb(115, 175, 85)',
+                        'rgb(242, 211, 0)',
+                        'rgb(65, 122, 167)',
+                    ],
+                    borderColor: [
+                        'rgb(189, 63, 51)',
+                        'rgb(115, 175, 85)',
+                        'rgb(242, 211, 0)',
+                        'rgb(65, 122, 167)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+              maintainAspectRatio: false,
+              aspectRatio: 4,
+              responsive: true,
+              legend: {
+                labels: {
+                    fontColor: 'rgb(66, 66, 66)',
+                }
+              },
+              animation: {
+                duration: ani_num
+              },
+              title: {
+                display: false,
+                text: 'Custom Chart Title'
+              },
+                scales: {
+                  xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false,
+                        color: 'rgb(66, 66, 66)',
+                      },
+                      ticks: {
+                        fontColor: 'rgb(66, 66, 66)',
+                    }
+                    }],
+                    yAxes: [{
+                      gridLines: {
+                        drawOnChartArea: false,
+                        color: 'rgb(66, 66, 66)'
+                      },
+                        ticks: {
+                            beginAtZero: true,
+                            callback: function (value) { if (Number.isInteger(value)) { return value; } },
+                            // stepSize: 1,
+                            color: 'rgb(0, 0, 0)',
+                            fontColor: 'rgb(66, 66, 66)',
+        
+                        }
+                    }]
+                }
+            }
+          });
+          break;
+  }
 }
 
 @Component({
@@ -88,10 +232,12 @@ function create_chart(num_try_send: number, ani_num:number){
 
 export class HomeComponent implements OnInit {
 
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog, private deviceDetectorService: DeviceDetectorService) { }
 
   num_try: number;
-
+  deviceInfo:DeviceInfo;
+  deviceOS:string;
+  
   Create_random_numbers(click_check:boolean):void
   {
       var farbe_array: number[];
@@ -130,7 +276,7 @@ export class HomeComponent implements OnInit {
       localStorage.setItem("random500", JSON.stringify(chart_arr));
       localStorage.setItem("wuerfe500", JSON.stringify(rdm_number));
 
-      create_chart(this.num_try, 1500);
+      create_chart(this.num_try, 1500, this.deviceOS);
 
   }
 
@@ -157,7 +303,7 @@ export class HomeComponent implements OnInit {
         myChart_global.destroy();
       }
 
-      create_chart(this.num_try, 0);
+      create_chart(this.num_try, 0, this.deviceOS);
  }
 
  saveValue(event:any, slide_check:boolean) {
@@ -264,24 +410,12 @@ export class HomeComponent implements OnInit {
         localStorage.setItem("random500", JSON.stringify(chart_arr));
         localStorage.setItem("wuerfe500", JSON.stringify(rdm_number));
   
-        create_chart(this.num_try, 1500);
+        create_chart(this.num_try, 1500, this.deviceOS);
       }
         
     });
 
   }
-
-
-  showDatenschutz(){
-    // Noch erstellen
-  }
-
-
-/*   // Listen for orientation changes
-  window.addEventListener("orientationchange", function() {
-    // Announce the new orientation number
-    alert(window.orientation);
-  }, false); */
 
   @HostListener('window:orientationchange')
 
@@ -297,6 +431,32 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    
+    //Styles checken
+    this.deviceInfo = this.deviceDetectorService.getDeviceInfo();
+    console.log(this.deviceInfo.os.toLowerCase());
+
+    this.deviceOS = this.deviceInfo.os.toLowerCase()
+
+    switch (this.deviceOS) {
+      case 'ios':
+        (<HTMLElement>document.getElementById("myChart_Android")).hidden=true;
+        (<HTMLElement>document.getElementById("myChart_default")).hidden=true;
+          break;
+
+      case 'android':
+        (<HTMLElement>document.getElementById("myChart_iOS")).hidden=true;
+        (<HTMLElement>document.getElementById("myChart_default")).hidden=true;
+          break;
+
+      default:
+        (<HTMLElement>document.getElementById("myChart_iOS")).hidden=true;
+        (<HTMLElement>document.getElementById("myChart_Android")).hidden=true;
+          break;
+  }
+
+
     //Überprüfen, ob Wert von SLider existiert
     if (localStorage.getItem("sliderValue") === null) {
       this.num_try = 1;
@@ -308,19 +468,14 @@ export class HomeComponent implements OnInit {
       this.num_try = JSON.parse(localStorage.getItem("sliderValue"));
     }
 
-
     if (localStorage.getItem("random500") === null || localStorage.getItem("wuerfe500") ===null) {
-      // console.log("Neu");
+      // Neu
       this.Create_random_numbers(false);
     }
     else{
-      // console.log("Vorhanden");
-/*       var test:string[] = new Array(501);
-      test = JSON.parse(localStorage.getItem("wuerfe500").replace("/[/gi","").replace("/]/gi",""));
-      console.log(test); */
-      //console.log(JSON.parse(localStorage.getItem("wuerfe500")));
+      // Vorhanden
       chart_arr = JSON.parse(localStorage.getItem("random500"));
-      create_chart(this.num_try, 1500);
+      create_chart(this.num_try, 1500, this.deviceOS);
     }
 
    
