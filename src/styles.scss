@@ -1,9 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 html, body{
-    height: 100%;
-    width: 100%;
-
-    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
     margin-right: 17.5px;
+}
+
+@media (display-mode: browser){
+    html, body{
+        overflow: auto;
+    }
+}
+
+@media (display-mode: standalone){
+    html, body{
+        overflow: hidden;
+    }
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

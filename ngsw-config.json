@@ -2,8 +2,8 @@
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
   "index": "/index.html",
   "appData": {
-    "version": "0.2.1d",
-    "changelog": "Versuch Darstellungsprobleme bei der Webseite zu beheben."
+    "version": "0.2.2",
+    "changelog": "Bugfix: Darstellung unter iOS im Safari-Browser"
   },
   "assetGroups": [
     {

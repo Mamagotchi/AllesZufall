@@ -6,7 +6,7 @@ label{
 .home-box{
     display: grid;
     grid-template-columns: 40px auto 100px 90px;
-    grid-template-rows: 40px auto 40px 40px 80px;
+    grid-template-rows: 40px auto 40px 60px 40px;
     max-height: calc(100vh - 100px);
 }
 
@@ -35,64 +35,46 @@ label{
     margin-left: 5px;
 }
 
+#myChart_iOS, #myChart_Android, #myChart_default{
+    grid-row: 2;
+    grid-column: 2 / 5;
+    max-width: calc(100vw - 65px);
+}
 
-
-@media (max-height: 649px) and (display-mode: standalone) {
+@media (orientation:portrait) and (-webkit-device-pixel-ratio: 2)
+{
     #myChart_iOS{
-        grid-row: 2;
-        grid-column: 2 / 5;
-        height: calc(100vh - 270px) !important;
-        max-height: calc(100vh - 270px) !important;
-        max-width: calc(100vw - 65px);
+        height: calc(100vh - 280px) !important;
+        max-height: calc(100vh - 280px) !important;
+    }
+
+    @media only screen and (min-width: 414px) and (max-width: 767px)
+    { 
+        #myChart_iOS{
+            height: calc(100vh - 350px) !important;
+            max-height: calc(100vh - 350px) !important;
+        }
     }
 }
 
-@media (min-height: 650px) and (display-mode: standalone) {
+@media (orientation:portrait) and (-webkit-device-pixel-ratio: 3)
+{
     #myChart_iOS{
-        grid-row: 2;
-        grid-column: 2 / 5;
-        height: calc(100vh - 320px) !important;
-        max-height: calc(100vh - 320px) !important;
-        max-width: calc(100vw - 65px);
-    }
-}
-
-
-@media (max-height: 649px) and (display-mode: browser) {
-    #myChart_iOS{
-        grid-row: 2;
-        grid-column: 2 / 5;
-        height: calc(100vh - 270px) !important;
-        max-height: calc(100vh - 270px) !important;
-        max-width: calc(100vw - 65px);
-    }
-}
-
-@media (min-height: 650px) and (display-mode: browser) {
-    #myChart_iOS{
-        grid-row: 2;
-        grid-column: 2 / 5;
-        height: calc(100vh - 320px) !important;
-        max-height: calc(100vh - 320px) !important;
-        max-width: calc(100vw - 65px);
+        height: calc(100vh - 350px) !important;
+        max-height: calc(100vh - 350px) !important;
     }
 }
 
 
 #myChart_Android{
-    grid-row: 2;
-    grid-column: 2 / 5;
     height: calc(100vh - 310px) !important;
+    // height: fit-content !important;
     max-height: calc(100vh - 310px) !important;
-    max-width: calc(100vw - 65px);
 }
 
 #myChart_default{
-    grid-row: 2;
-    grid-column: 2 / 5;
-    height: calc(100vh - 190px) !important;
-    max-height: calc(100vh - 190px) !important;
-    max-width: calc(100vw - 65px);
+    height: calc(100vh - 210px) !important;
+    max-height: calc(100vh - 210px) !important;
 }
 
 #y_titel{
@@ -114,7 +96,7 @@ label{
 }
 
 #Tries_box{
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 1 / span 3;
     width: calc(100vw - 120px);
     display: flex;
@@ -123,24 +105,24 @@ label{
 }
 
 #Btn_Minus{
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 3;
     margin-left: 35px;
     width: 20px;
 }
 
 #Btn_Plus{
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 4;
     width: 20px;
     margin-left: 20px;
 }
 
 #myRange{
-    grid-row: 5;
+    grid-row: 4;
     grid-column: 1 / span 4;
     width: calc(100vw - 30px);
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
 }
 
 button{
@@ -157,42 +139,52 @@ button{
 }
 
 @media all and (display-mode: standalone) {
-    #myChart_iOS, #myChart_Android, #myChart_default{
+    #myChart_iOS, #myChart_Android{
         grid-row: 2;
         grid-column: 2 / 5;
-        height: calc(100vh - 190px) !important;
-        max-height: calc(100vh - 190px) !important;
-        max-width: calc(100vw - 65px);
+        height: calc(100vh - 210px) !important;
+        max-height: calc(100vh - 210px) !important;
     }
   }
 
-  @media (orientation:landscape) and (display-mode: browser) {
-    @media (max-height: 339px){
+   @media (orientation:landscape) and (display-mode: browser) {
+/*     #myChart_iOS, #myChart_Android{
+    } */
+
+    @media (-webkit-device-pixel-ratio: 2)    {
         #myChart_iOS{
-            grid-row: 2;
-            grid-column: 2 / 5;
-            height: calc(100vh - 250px) !important;
-            max-height: calc(100vh - 250px) !important;
-            max-width: calc(100vw - 65px);
+            height: calc(100vh - 210px) !important;
+            max-height: calc(100vh - 210px) !important;
         }
+
+
+
+        @media only screen and (min-width: 414px) and (max-width: 767px)
+        {
+            #myChart_iOS{
+            height: calc(100vh - 240px) !important;
+            max-height: calc(100vh - 240px) !important;
+            }
+        }
+
     }
 
-    @media (min-height: 340px){
+    @media (-webkit-device-pixel-ratio: 3)
+    {
         #myChart_iOS{
-            grid-row: 2;
-            grid-column: 2 / 5;
             height: calc(100vh - 290px) !important;
             max-height: calc(100vh - 290px) !important;
-            max-width: calc(100vw - 65px);
         }
     }
 
     #myChart_Android{
-        grid-row: 2;
-        grid-column: 2 / 5;
-        height: calc(100vh - 240px) !important;
-        max-height: calc(100vh - 240px) !important;
-        max-width: calc(100vw - 65px);
+        // height: fit-content !important;
+        height: calc(100vh - 260px) !important;
+        max-height: calc(100vh - 260px) !important;
+    }
+
+    .home-box{
+        max-height: calc(100vh - 20px);
     }
   }
 
