@@ -1,7 +1,5 @@
 <div class="home-box">
-
     <button mat-flat-button id="Btn_Neu" (click)="Create_random_numbers(true)">Neu</button>
-    <!-- <div id="Datenschutz_box"><button mat-flat-button id="Btn_Datenschutz" (click)="showDatenschutz()">Datenschutz</button></div> -->
     <button mat-flat-button id="Btn_QR" (click)="openDialog()">
         <img src="https://mamagotchi.github.io/alleszufall/assets/qr_icon.png" alt="QR-Code" for="Btn_QR" width="25px">
     </button>
@@ -19,4 +17,12 @@
     
     <mat-slider min="1" max="500" step="1" value={{num_try}} class="slider" id="myRange" (input)="getSliderValue($event,0,true)" (change)="saveValue($event, true)"></mat-slider>
 
+    <mat-toolbar *ngIf="showButton">
+        <mat-toolbar-row>
+          <span>Alles Zufall?</span>
+          <span class="example-spacer"></span>
+          <button mat-flat-button (click)="addToHomeScreen()" id="Btn_install">Installieren</button>
+          <button mat-flat-button (click)="closeInstallbanner()" id="Btn_close">X</button>
+        </mat-toolbar-row>
+      </mat-toolbar>
 </div>

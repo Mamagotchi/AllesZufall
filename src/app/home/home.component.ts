@@ -3,6 +3,7 @@ import { Chart } from 'node_modules/chart.js'
 import { MatDialog } from '@angular/material/dialog';
 import { QrhubComponent } from '../qrhub/qrhub.component';
 import { DeviceDetectorService, DeviceInfo } from 'ngx-device-detector';
+import { SwUpdate } from '@angular/service-worker';
 import { RGBLuminanceSource } from '@zxing/library';
 
 var myChart_global = null;
@@ -232,11 +233,14 @@ function create_chart(num_try_send: number, ani_num:number, deviceOS_send:string
 
 export class HomeComponent implements OnInit {
 
-  constructor(public dialog: MatDialog, private deviceDetectorService: DeviceDetectorService) { }
+  constructor(public dialog: MatDialog, private deviceDetectorService: DeviceDetectorService, private swUpdate: SwUpdate) { }
 
   num_try: number;
   deviceInfo:DeviceInfo;
   deviceOS:string;
+  title = 'alleszufall';
+  deferredPrompt: any;
+  showButton = false;
   
   Create_random_numbers(click_check:boolean):void
   {
@@ -430,7 +434,59 @@ export class HomeComponent implements OnInit {
 
   }
 
+  @HostListener('window:beforeinstallprompt', ['$event'])
+
+  onbeforeinstallprompt(e) {
+    console.log(e);
+    // Prevent Chrome 67 and earlier from automatically showing the prompt
+    e.preventDefault();
+    // Stash the event so it can be triggered later.
+    this.deferredPrompt = e;
+
+    //Überprüfen, ob Wert von SLider existiert
+    if (localStorage.getItem("installed") === null) {
+      this.showButton = true;
+    }
+  }
+
+  addToHomeScreen() {
+    // hide our user interface that shows our A2HS button
+    this.showButton = false;
+    // Show the prompt
+    this.deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    this.deferredPrompt.userChoice
+    .then((choiceResult) => {
+    if (choiceResult.outcome === 'accepted') {
+      console.log('User accepted the A2HS prompt');
+    } else {
+      console.log('User dismissed the A2HS prompt');
+    }
+    this.deferredPrompt = null;
+
+    // Entscheidung im lokalen Speicher sichern
+    localStorage.setItem("installed", JSON.stringify("Ja"));
+  });
+
+}
+
+closeInstallbanner(){
+  this.showButton = false;
+}
+
   ngOnInit(): void {
+
+    // Nch Updates suchen
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe((evt) => {
+        const updateApp = window.confirm(`
+          Ein Update ist verfügbar (${evt.current.appData['version']} => ${evt.available.appData['version']}).
+          Änderungen: ${evt.available.appData['changelog']}
+          Wollen Sie das Update jetzt installieren?
+        `);
+        if (updateApp) { window.location.reload(); }
+      });
+    }
 
     
     //Styles checken

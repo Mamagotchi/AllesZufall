@@ -5,28 +5,15 @@ label{
 
 .home-box{
     display: grid;
-    grid-template-columns: 40px auto 100px 90px;
-    grid-template-rows: 40px auto 40px 60px 40px;
-    max-height: calc(100vh - 100px);
+    grid-template-columns: 40px auto-fit 100px 80px;
+    grid-template-rows: 40px auto-fit 40px 60px 40px auto;
+    margin: 15px;
+    // background-color:lightpink;
 }
 
 #Btn_Neu{
     grid-row: 1;
-    grid-column:  1;
-}
-
-#Datenschutz_box{
-    grid-row: 1;
-    grid-column: 2 / 4;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-
-#Btn_Datenschutz{
-    width: auto;
-    height: 40px;
-    margin-left: 50px;
+    grid-column:  1 / span 2;
 }
 
 #Btn_QR{
@@ -37,8 +24,8 @@ label{
 
 #myChart_iOS, #myChart_Android, #myChart_default{
     grid-row: 2;
-    grid-column: 2 / 5;
-    max-width: calc(100vw - 65px);
+    grid-column: 2 / span 3;
+    max-width: calc(100vw - 65px) !important;
 }
 
 @media (orientation:portrait) and (-webkit-device-pixel-ratio: 2)
@@ -68,13 +55,12 @@ label{
 
 #myChart_Android{
     height: calc(100vh - 310px) !important;
-    // height: fit-content !important;
     max-height: calc(100vh - 310px) !important;
 }
 
 #myChart_default{
-    height: calc(100vh - 210px) !important;
-    max-height: calc(100vh - 210px) !important;
+    height: calc(100vh - 190px) !important;
+    max-height: calc(100vh - 190px) !important;
 }
 
 #y_titel{
@@ -83,8 +69,11 @@ label{
     display: flex;
     align-items: center;
     justify-content:center;
-    transform: rotate(-90deg);
+     transform: rotate(180deg);
+    writing-mode:vertical-rl;
     white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #x_titel{
@@ -97,17 +86,18 @@ label{
 
 #Tries_box{
     grid-row: 5;
-    grid-column: 1 / span 3;
-    width: calc(100vw - 120px);
+    grid-column: 1 / span 2;
+    width: calc(100vw - 190px);
     display: flex;
     align-items: center;
     justify-content:flex-start;
+    margin-left: 10px;
 }
 
 #Btn_Minus{
     grid-row: 5;
     grid-column: 3;
-    margin-left: 35px;
+    //margin-left: 35px;
     width: 20px;
 }
 
@@ -121,8 +111,8 @@ label{
 #myRange{
     grid-row: 4;
     grid-column: 1 / span 4;
-    width: calc(100vw - 30px);
-    // margin-bottom: 40px;
+    width: calc(100vw - 20px);
+    // margin-left: 10px;
 }
 
 button{
@@ -139,11 +129,17 @@ button{
 }
 
 @media all and (display-mode: standalone) {
-    #myChart_iOS, #myChart_Android{
-        grid-row: 2;
-        grid-column: 2 / 5;
-        height: calc(100vh - 210px) !important;
-        max-height: calc(100vh - 210px) !important;
+    #myChart_iOS, #myChart_Android, #myChart_default{
+        height: calc(100vh - 190px) !important;
+        max-height: calc(100vh - 190px) !important;
+    }
+
+    @media only screen and (min-width: 414px) and (max-width: 767px)
+    {
+        #myChart_iOS{
+            height: calc(100vh - 180px) !important;
+            max-height: calc(100vh - 180px) !important;
+        }
     }
   }
 
@@ -156,8 +152,6 @@ button{
             height: calc(100vh - 210px) !important;
             max-height: calc(100vh - 210px) !important;
         }
-
-
 
         @media only screen and (min-width: 414px) and (max-width: 767px)
         {
@@ -178,13 +172,34 @@ button{
     }
 
     #myChart_Android{
-        // height: fit-content !important;
-        height: calc(100vh - 260px) !important;
+         height: calc(100vh - 260px) !important;
         max-height: calc(100vh - 260px) !important;
     }
+  }
 
-    .home-box{
-        max-height: calc(100vh - 20px);
-    }
+
+  // Style für Installbanner
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  mat-toolbar{
+    grid-row: 6;
+    grid-column: 1 / 6;
+    height: fit-content !important;
+
+    margin-top: 15px;
+    background-color: #1976d2;
+    color: white;
+  }
+
+  #Btn_install,  #Btn_close{
+    background-color: white;
+    color: black; 
+    width: fit-content !important;
+  }
+
+  #Btn_close{
+    margin-left: 10px;
   }
 

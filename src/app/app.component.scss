@@ -1,31 +1,7 @@
-.app-box {
-  display: grid;
-  grid-template-columns: calc(100vw - 30px);
-  grid-template-rows: calc(100vh - 10px);
-  width: calc(100vw - 30px);
-  height: 100vh;
-  margin-left: 15px;
-  margin-right: 15px;
-  }
-
-
 app-home{
-  grid-row: 1;
-  grid-column: 1;
-  padding-top: 20px;
-  }
-
-  .example-spacer {
-    flex: 1 1 auto;
-  }
-  
-  mat-toolbar{
-    background-color: #1976d2;
-    color: white;
-    margin-bottom: 15px;
-  }
-
-  button{
-    background-color: white;
-    color: black;
+/*   grid-row: 1;
+  grid-column: 1; */
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
   }
