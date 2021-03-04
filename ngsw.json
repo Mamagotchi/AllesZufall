@@ -1,8 +1,8 @@
 {
   "configVersion": 1,
-  "timestamp": 1614892449639,
+  "timestamp": 1614893025413,
   "appData": {
-    "version": "0.2.3f",
+    "version": "0.2.3g",
     "changelog": "Layout debugging"
   },
   "index": "https://mamagotchi.github.io/alleszufall/index.html",
@@ -17,7 +17,7 @@
       "urls": [
         "https://mamagotchi.github.io/alleszufall/favicon.ico",
         "https://mamagotchi.github.io/alleszufall/index.html",
-        "https://mamagotchi.github.io/alleszufall/main.638e9ae1450c61c5f805.js",
+        "https://mamagotchi.github.io/alleszufall/main.6e9660700cbd3c4986a4.js",
         "https://mamagotchi.github.io/alleszufall/manifest.webmanifest",
         "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js",
         "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js",
@@ -118,8 +118,8 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_640x1136.png": "ee31d0b422a3fd7430ca73027487d724c0fc13f3",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_750x1334.png": "b56422221f563ea1ea989814213b3dc92015e225",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "a003fa2146ca4bcadbd19a18bfcb4412f78cff21",
-    "https://mamagotchi.github.io/alleszufall/main.638e9ae1450c61c5f805.js": "dab6cfe6752d074bef9fbe0287f2b4a2152c6333",
+    "https://mamagotchi.github.io/alleszufall/index.html": "41d02d8811dbc6fdd1822c79102cce476e996ca9",
+    "https://mamagotchi.github.io/alleszufall/main.6e9660700cbd3c4986a4.js": "4b96bedca74f296a5c9c1489971b41dc627fed07",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://mamagotchi.github.io/alleszufall/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
