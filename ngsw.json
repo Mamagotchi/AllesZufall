@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1614954052602,
+  "timestamp": 1614954203855,
   "appData": {
     "version": "1.0.0",
     "changelog": "Die Progressive Web App von 'Alles Zufall' ist fertig. Viel Spaß!"
@@ -162,7 +162,7 @@
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_828x1792.png": "169746b299d0c46f5c108d65bace6866c82b6f0f",
     "https://mamagotchi.github.io/alleszufall/assets/splashscreen/Launch_828x1792_landscape.png": "af687242cc3493c7a1b72310bb8aef7af56322a4",
     "https://mamagotchi.github.io/alleszufall/favicon.ico": "861f83f6bd5c332d93a0619adecaa8d755e37250",
-    "https://mamagotchi.github.io/alleszufall/index.html": "4acaa90dcb76830959fd79ee8b725761264645d9",
+    "https://mamagotchi.github.io/alleszufall/index.html": "56190ca6f9c6b7cf382b0cf0a27aaf01d3a86433",
     "https://mamagotchi.github.io/alleszufall/main.cd4a14c8bc8e7da4adaa.js": "4d573d6015c02ecc3a7a2edb8ee583be176d6bc6",
     "https://mamagotchi.github.io/alleszufall/manifest.webmanifest": "c8d7431ab75b79af896a6740085922959430c9cd",
     "https://mamagotchi.github.io/alleszufall/polyfills.70ffb02a82cc06d3b0cb.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
