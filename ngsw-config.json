@@ -2,8 +2,8 @@
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
   "index": "/index.html",
   "appData": {
-    "version": "0.3.1",
-    "changelog": "Startbildschirme für alle aktuell unterstützen iOS-Gerät wurden hinzugefügt. Neuinstallation notwendig!"
+    "version": "1.0.0",
+    "changelog": "Die Progressive Web App von 'Alles Zufall' ist fertig. Viel Spaß!"
   },
   "assetGroups": [
     {

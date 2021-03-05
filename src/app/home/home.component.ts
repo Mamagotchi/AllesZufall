@@ -481,7 +481,7 @@ closeInstallbanner(){
       this.swUpdate.available.subscribe((evt) => {
         const updateApp = window.confirm(`
           Ein Update ist verfügbar (${evt.current.appData['version']} => ${evt.available.appData['version']}).
-          Änderungen: ${evt.available.appData['changelog']}
+          Änderungen: ${evt.available.appData['changelog'] + "\n"}
           Wollen Sie das Update jetzt installieren?
         `);
         if (updateApp) { window.location.reload(); }

@@ -32,7 +32,6 @@ export class QrhubComponent implements OnInit {
     this.dialogRef.close(sendResult);
   }
 
-
   ngOnInit(): void {
     this.chart_arr = JSON.parse(localStorage.getItem("wuerfe500"));
     this.qr_data = this.chart_arr.toString();
